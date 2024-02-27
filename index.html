@@ -8,11 +8,6 @@
     <label for="backcp">Select Background Color</label>
     <input type="color" name="backgroundcolorpicker" id="backcp">
     <label for="colorset" >Set Color</label>
-    <input type="button" name="colorsetbutton" id="colorset">
-    <script>
-            if (document.getElementById("colorset")) {
-            document.body.style.background = document.getElementById("backcp");
-            }         
-    </script>
+    <input type="button" name="colorsetbutton" id="colorset" onclick="document.body.style.background = document.getElementById(backcp)">
 </body>
 </html>
