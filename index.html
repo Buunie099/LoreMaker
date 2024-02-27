@@ -5,12 +5,11 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <label for="backcp">Select Background Color</label>
-    <input type="color" name="backgroundcolorpicker" id="backcp">
+    <label for="backcp" style="margin-bottom: 10px;">Select Background Color</label>
+    <input type="color" name="backgroundcolorpicker" id="backcp" style="margin-bottom: 10px;">
     <script>
         bgcolor = document.getElementById("backcp");
     </script>
-    <label for="colorset" >Set Color</label>
-    <input type="button" name="colorsetbutton" id="colorset" onclick="document.body.style.background = bgcolor.value">
+    <input type="button" name="colorsetbutton" id="colorset" onclick="document.body.style.background = bgcolor.value" style="margin-bottom: 10px;" value="Set Color">
 </body>
 </html>
